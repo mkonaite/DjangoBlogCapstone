@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!--Student Name: Matshehla Mathews Konaite
+        Student No: 213659103
+        Lecturers: Dr. Kyle Stone and Mark Muwanguzi
+        Course: Full Stack Web Development Short Learning Course
+        Assignment 2
+        Date: 30 October 2022
+    -->
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">       <!-- This overwrite above bootstrap css. Because is put last -->
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="jumbotron jumbtron-fluid">
+      <div class="container">
+        <h1>MY BLOG</h1>
+        <h6>Best stories by Matshehla Konaite
+          <a href="admin.html" class="btn btn-link" style="color:black; float:right">Admin</a>
+          <a href="index.html" class="btn btn-link" style="color:black; float:right">Home</a>
+        </h6>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="index.html" class="btn btn-primary">Go to Home Page</a>
+      <br>
+      <br>
+    </div>
+
+    <h1 style="text-align:center">Create a new Article</h1>
+
+    <div class="container">
+      <form action="/action_page_process_submitted_data.php">
+        <h2>Article Title</h2>
+        <input class="form-control" type="text" id="artTtitle" name="" value="">
+        <br>
+        <h2>Choose an Image</h2>
+        <input type="file" id="file" name="" value="">
+        <br> <br>
+        <h2>Text Area</h2>
+        <textarea class="form-control" rows="5" id="artTxt"></textarea>
+        <br>
+        <h2>Article Category</h2>
+        <input class="form-control" type="text" id="artCat" name="" value="">
+        <br>
+        <button type="submit" class="btn btn-success">Create Article</button>
+        <a href="index.html" class="btn btn-secondary">Cancel</a>
+      </form>
+    </div>
+    <br>
+    <br>
+
+    <!--Footer -->
+    <div class="container-fluid" style="background-color:rgb(220,220,220); margin-bottom:0rem">
+      <br>
+      <div class="container">
+        <h1>Blogging</h1>
+        <p>Most inspiring moments captured for you by MM Konaite</p>
+        <blockquote class="blockquote">
+          <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+          <footer class="blockquote-footer">From WWF's website</footer>
+        </blockquote>
+      </div>
+      <br>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
